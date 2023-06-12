@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-wrapper{
+    border: 5px solid rgb(7, 85, 96) ;
+    height: 100vh;
+    padding: 30px;
+}
+
+.info {
+    border: 5px solid rgb(160, 10, 173);
+    width: 70%;
+    padding: 8px 4px 8px 8px;
+    border-radius:16px ;
+} 
+
+.title-section{
+    font-weight: 400;
+    padding: 8px;
+    border: 2px solid saddlebrown;
+    margin-top: 8px; 
+    font-size: 13px;
+} 
+
+.summary{
+    font-size: 13px; 
+    margin-top: 12px;
+    color: rgba(128,128,128,0.729);
+    width: 50%;
+}
+.title-section a,
+a:visited{
+    color: rgb(179, 22, 22);
+}
+
+.separator-line{
+    margin-top: 48px;
+    border: 0.2px solid rgba(128,128,128,0.533);
+} 
+
+.wrapper-section{
+    margin-top: 40px;
+    
+}
+
+.left-section{
+    border: 2px solid rgb(248, 244, 4);
+    height: 200px;
+    border-radius: 4px;
+    width: 50%;
+    float: left;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.right-section{
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+} 
+.right-section h4{
+    font-weight: 400;
+}
+
+.left-section h3 {
+    color: rgb(0, 185, 74);
+}
+
+.company-name{
+    margin-top: 14px;
+    font-size: 13px;
+}
+
+.job-title{
+    color: rgb(107, 0, 0);
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.list{
+    font-size: 12px;
+}
+
+.list li{
+    list-style: auto;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.title{
+    color: rgb(0, 185, 74);
+    font-size: 12px;
+}
+
+.common-border{
+    border: 2px solid rgb(255, 119, 0);
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+
+ 
